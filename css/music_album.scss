@@ -1,0 +1,158 @@
+main {
+  background-color: #000;
+
+  .music {
+    ul {
+
+      h2 {
+        color: rgb(255, 251, 4);
+        padding: 100px 0px 50px 0px;
+        font-size: 10rem;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 10px;
+
+      }
+
+      li {
+        display: flex;
+        justify-content: space-between;
+        width: 70%;
+        margin: 0 auto;
+
+
+        img {width: 40%;}
+
+        p {
+          width: 40%;
+          font-size: 26px;
+          color: #fff;
+        }
+      }
+    }
+  }
+
+  .playit {
+    ul {
+      h2 {
+        color: rgb(255, 251, 4);
+        padding: 100px 0px 50px 0px;
+        font-size: 100px;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        letter-spacing: 10px;
+
+      }
+
+      li {
+
+        width: 20%;
+        margin: 0 auto;
+        // border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        text-align: center;
+
+        line-height: 2;
+
+        a {
+
+          font-size: 40px;
+          color: #fff;
+
+          text-align: center;
+          font-family: 'Anton', sans-serif;
+        }
+
+        :hover {
+          color: rgb(238, 71, 210);
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+@media (max-width:1024px) {
+
+  main {
+    background-color: #000;
+  
+    .music {
+      ul {
+        width: 90%;;
+        margin: 0 auto;
+  
+        h2 {
+          color: rgb(255, 251, 4);
+          padding: 100px 0px 50px 0px;
+          font-size: 3rem;
+          text-align: center;
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 10px;
+  
+        }
+  
+        li {
+          display: inline-block;
+          justify-content: center;
+          width: 100%;
+          text-align: center;
+        
+  
+  
+          img {width: 40%;}
+  
+          p {
+            padding-top:3%;
+            text-align: center;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            line-height: 2;
+          }
+        }
+      }
+    }
+  
+    .playit {
+      ul {
+        padding-bottom: 5%;
+        h2 {
+          color: rgb(255, 251, 4);
+          padding-bottom: 5%;
+          font-size: 3rem;
+          text-align: center;
+          font-family: 'Anton', sans-serif;
+          letter-spacing: 10px;
+  
+        }
+  
+        li {
+  
+          width: 30%;
+          margin: 0 auto;
+          // border-top: 1px solid #fff;
+          border-bottom: 1px solid #fff;
+          text-align: center;
+  
+          line-height: 2;
+     
+          a {
+  
+            font-size: 1rem;
+            color: #fff;
+  
+            text-align: center;
+            font-family: 'Anton', sans-serif;
+          
+          }
+  
+          :hover {
+            color: rgb(238, 71, 210);
+            font-style: italic;
+          }
+        }
+      }
+    }
+  }
+
+}

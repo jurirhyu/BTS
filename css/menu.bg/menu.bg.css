@@ -1,0 +1,135 @@
+@import url("common.css");
+@import url("js/common.js");
+header {
+  width: 100%;
+  background-color: #000;
+}
+
+header .nevbar {
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2%;
+  z-index: 1;
+}
+
+header .nevbar .sns img {
+  width: 35px;
+}
+
+header .nevbar .logo {
+  display: block;
+  margin: 0 auto;
+}
+
+header .nevbar .logo a {
+  display: inline-block;
+  text-align: center;
+  font-size: 60px;
+  color: #fff;
+}
+
+header .nevbar .lang {
+  display: block;
+  padding-right: 2%;
+}
+
+header .nevbar .lang ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header .nevbar .menu {
+  width: 30px;
+  position: relative;
+}
+
+header .nevbar .menu .trigger-menu {
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  display: inline-block;
+  position: relative;
+  z-index: 100;
+}
+
+header .nevbar .menu .trigger-menu span {
+  display: block;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: rgba(243, 243, 243, 0.555);
+  height: 3px;
+  margin: 4px;
+}
+
+header .nevbar .menu .trigger-menu span:nth-of-type(1) {
+  -webkit-transform: translateY(0px) rotate(0deg);
+          transform: translateY(0px) rotate(0deg);
+}
+
+header .nevbar .menu .trigger-menu span:nth-of-type(3) {
+  -webkit-transform: translateY(0px) rotate(0deg);
+          transform: translateY(0px) rotate(0deg);
+}
+
+header .nevbar .menu .trigger-menu.active span:nth-of-type(1) {
+  -webkit-transform: translateY(5px) rotate(45deg);
+          transform: translateY(5px) rotate(45deg);
+}
+
+header .nevbar .menu .trigger-menu.active span:nth-of-type(2) {
+  display: none;
+}
+
+header .nevbar .menu .trigger-menu.active span:nth-of-type(3) {
+  -webkit-transform: translateY(-3px) rotate(-45deg);
+          transform: translateY(-3px) rotate(-45deg);
+}
+
+header .nevbar .menu p {
+  display: none;
+  text-align: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 10;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nevbar .menu p a {
+  padding: 20px 0;
+  font-size: 3rem;
+  display: block;
+  white-space: normal;
+  color: #fff;
+  text-align: center;
+}
+
+header .nevbar .menu p.active {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=menu.bg.css.map */

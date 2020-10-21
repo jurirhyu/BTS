@@ -1,0 +1,128 @@
+main {
+  background-color: #000;
+}
+
+main .music ul h2 {
+  color: #fffb04;
+  padding: 100px 0px 50px 0px;
+  font-size: 10rem;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+}
+
+main .music ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 70%;
+  margin: 0 auto;
+}
+
+main .music ul li img {
+  width: 40%;
+}
+
+main .music ul li p {
+  width: 40%;
+  font-size: 26px;
+  color: #fff;
+}
+
+main .playit ul h2 {
+  color: #fffb04;
+  padding: 100px 0px 50px 0px;
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 10px;
+}
+
+main .playit ul li {
+  width: 20%;
+  margin: 0 auto;
+  border-bottom: 1px solid #fff;
+  text-align: center;
+  line-height: 2;
+}
+
+main .playit ul li a {
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  font-family: 'Anton', sans-serif;
+}
+
+main .playit ul li :hover {
+  color: #ee47d2;
+  font-style: italic;
+}
+
+@media (max-width: 1024px) {
+  main {
+    background-color: #000;
+  }
+  main .music ul {
+    width: 90%;
+    margin: 0 auto;
+  }
+  main .music ul h2 {
+    color: #fffb04;
+    padding: 100px 0px 50px 0px;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+  }
+  main .music ul li {
+    display: inline-block;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    text-align: center;
+  }
+  main .music ul li img {
+    width: 40%;
+  }
+  main .music ul li p {
+    padding-top: 3%;
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #fff;
+    line-height: 2;
+  }
+  main .playit ul {
+    padding-bottom: 5%;
+  }
+  main .playit ul h2 {
+    color: #fffb04;
+    padding-bottom: 5%;
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 10px;
+  }
+  main .playit ul li {
+    width: 30%;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+    line-height: 2;
+  }
+  main .playit ul li a {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+  }
+  main .playit ul li :hover {
+    color: #ee47d2;
+    font-style: italic;
+  }
+}
+/*# sourceMappingURL=music_album.css.map */

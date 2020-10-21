@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="icon" href="img/favi.png" type="image/x-icon" />
+
+    <link href="css/common.css" rel="stylesheet" type="text/css" />
+    <link href="css/index.css" rel="stylesheet" type="text/css" />
+    <link href="css/index_popup.css" rel="stylesheet" type="text/css" />
+    <link href="css/sign-up.css" rel="stylesheet" type="text/css"/>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+    <!-- <script src="/js/common.js"></script> -->
+    <script src="js/common_hf.js"></script>
+    <script src="js/common_burger.js"></script>
+    <script src="js/index_slide_letter.js"></script>
+    <script src="js/index_popup.js"></script>
+    <script src="js/sign-up.js"></script>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/ko_KR/sdk.js#xfbml=1&version=v8.0" nonce="uE9VGfMJ"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    
+    <!-- <script src="js/popup.js"></script> -->
+
+    <!-- <script src="/js/index.js"></script> -->
+
+    <title>BTS</title>
+  </head>
+
+  <body>
+    <!-- ================2,video================ -->
+    <header></header>
+
+    <main>
+      <div class="popup">
+            <img src="img/BTS.jpg" />
+            <p><a href="">Get Tickets</a></p>
+
+            <div>
+              <input type="checkbox" name="oneday" />
+              Close it for a day.
+              <a>Close</a>
+            </div>
+            
+      </div>
+
+      <div class="sign-up">
+            <div class="sign-up-for">
+              <h3>SIGN UP FOR THE LATEST NEWS</h3>
+            </div>  
+        
+
+            <form class="inputs ">
+                <p>
+                  Please enter your details below for advanced information on tours, tickets & special competitions
+                </p>
+         
+                <input type="text" id="fname" name="id" value="Name"><br>
+
+                <input type="text" id="fname" name="email" value="Email Address"><br>
+
+                <input type="text" id="fname" name="fname" value="Town/City"><br>
+
+                <input type="text" id="fname" name="fname" value="Country"><br>
+
+                <input type="text" id="fname" name="phone" value="Mobile"><br>
+               
+                <input type="radio" id="selected" name="selected" value="selected">
+                <label for="selected">By submitting I agree to the Privacy Policy</label><br>
+              
+                <button type="submit" class="btn" id="subscribe" name="subscribe">Subscribe</button>
+          </form>
+      </div>
+
+
+      <div class="videoBGWrapper">
+        <video autoplay muted loop>
+          <source src="video/music2.mp4" type="video/mp4" controls loop />
+        </video>
+      </div>
+
+      <!-- ================4,menu================ -->
+      <!--hover시 이미지가 칼라로 변하고 앞에 제목들에 효과가 들어간다js -->
+
+      <div class="menu_select">
+        <ul>
+          <li>
+            <a href="bts.html">
+              <img src="img/main_bts_beforeHV.jpg" alt="" />
+              <span>
+                BTS
+                <!-- <div class="glitch" data-text="BTS"></div>
+                            <div class="glow"></div>
+                            <div class="scanlines"></div> -->
+              </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="music.html">
+              <img src="img/main_music_beforeHV.jpg" alt="" />
+              <span> MUSIC </span>
+            </a>
+          </li>
+
+          <li>
+            <a href="sechedule.html">
+              <img src="img/main_sechedule_beforeHV.jpg" alt="" />
+              <span> SECHEDULE </span>
+            </a>
+          </li>
+
+          <li>
+            <a class="shop_ani" href="shop.html">
+              <img src="img/main_shop_beforeHV.jpg" alt="" />
+              <span> / Shop </span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </main>
+
+    <footer></footer>
+
+
+  </body>
+</html>

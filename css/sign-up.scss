@@ -1,0 +1,188 @@
+.sign-up{
+    position: fixed;
+    // position: absolute;
+    bottom:0;
+    z-index: 200;
+    background-color: black;
+    padding:20px;
+    width: 18%;
+    transform: translateY(86%);
+    transition: 0.5s;
+
+    &.active{
+        transform: translateY(0%);
+    }
+   
+    .sign-up-for{
+        justify-content: space-between;
+        
+            h3{ 
+                
+                color:#fff;   
+                font-size: 14px;
+                font-weight: bold;
+                position: relative;
+            }
+
+        
+
+            :after{
+                content:'';
+                background: url('../img/upArrow.gif') right center no-repeat;
+                background-size:50%;
+                width:30px; height: 30px; 
+                position: absolute;
+                right:0; top:60%;
+            
+                
+                transform: rotate(0deg) translateY(-50%);
+                transform-origin: 50% 0 ;
+            }
+            ::after{
+                background-size:50%;
+                width:30px; height: 30px; 
+                position: absolute;
+                right:0%; top:60%;
+            }    
+            
+    }
+    &.active .sign-up-for h3:after{
+        transform: rotate(180deg) translateY(-50%);
+    }
+
+
+  
+
+    .inputs{
+        p{
+            color:#fff;   
+            font-size: 14px;
+            padding:20px 0%;
+        }
+    
+        input{
+            border: 0;
+            box-shadow: none;
+            background: #222;
+            padding: 10px 15px;
+            font-size: 13px;
+            width: 100%;
+            margin: 2px 0;
+            color: #FFF;
+            border-radius: 0;
+        }
+
+        :nth-of-type(6){
+            width: 3%;
+        }
+        
+        label{
+            font-size: 12px;
+            color:#fff;
+        }
+
+        .btn{
+            margin-top: 10px;
+            background: #FFF;
+            border: #fff;
+            color: #000;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+    }
+
+}
+
+@media (max-width:1024px) {
+    .sign-up{
+        position: fixed;
+        // position: absolute;
+        bottom:0;
+        z-index: 200;
+        background-color: black;
+        padding:20px;
+        width: 18%;
+        transform: translateY(86%);
+        transition: 0.5s;
+        display: none;
+    
+        &.active{
+            transform: translateY(0%);
+        }
+       
+        .sign-up-for{
+            justify-content: space-between;
+            
+                h3{ 
+                    
+                    color:#fff;   
+                    font-size: 14px;
+                    font-weight: bold;
+                    position: relative;
+                }
+    
+            
+    
+                :after{
+                    content:'';
+                    background: url('../img/upArrow.gif') right center no-repeat;
+                    background-size:50%;
+                    width:30px; height: 30px; 
+                    position: absolute;
+                    right:0; top:60%;
+                
+                    
+                    transform: rotate(0deg) translateY(-50%);
+                    transform-origin: 50% 0 ;
+                }
+                
+        }
+        &.active .sign-up-for h3:after{
+            transform: rotate(180deg) translateY(-50%);
+        }
+    
+    
+      
+    
+        .inputs{
+            p{
+                color:#fff;   
+                font-size: 14px;
+                padding:20px 0%;
+            }
+        
+            input{
+                border: 0;
+                box-shadow: none;
+                background: #222;
+                padding: 10px 15px;
+                font-size: 13px;
+                width: 100%;
+                margin: 2px 0;
+                color: #FFF;
+                border-radius: 0;
+            }
+    
+            :nth-of-type(6){
+                width: 3%;
+            }
+            
+            label{
+                font-size: 12px;
+                color:#fff;
+            }
+    
+            .btn{
+                margin-top: 10px;
+                background: #FFF;
+                border: #fff;
+                color: #000;
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+        }
+    
+    }
+    
+
+}

@@ -1,0 +1,219 @@
+.news1 {
+  z-index: -100;
+  width: 100%;
+  padding-top: 400px;
+  padding-bottom: 200px;
+  background-color: #000;
+}
+.news1 p {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(15%, 150%);
+}
+.news1 p span {
+  text-align: center;
+  margin: 0 auto;
+  font-family: "Monoton", cursive;
+  font-size: 150px;
+  padding: 2%;
+}
+.news1 p span:nth-child(1) {
+  animation-delay: 0s;
+  animation: animate 1s linear infinite, font1 5s linear infinite;
+}
+.news1 p span:nth-child(2) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font2 5s linear infinite;
+}
+.news1 p span:nth-child(3) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font3 5s linear infinite;
+}
+.news1 p span:nth-child(4) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font4 5s linear infinite;
+}
+.news1 p span:nth-child(5) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font5 5s linear infinite;
+}
+.news1 p span:nth-child(6) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font6 5s linear infinite;
+}
+.news1 p span:nth-child(7) {
+  animation-delay: 0s;
+  animation: animate 2s linear infinite, font7 5s linear infinite;
+}
+@keyframes font1 {
+  0% {
+    color: #CC0033;
+    text-shadow: 0 0 100px #ff7d7d;
+  }
+  100% {
+    color: #ff7d7d;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+@keyframes font2 {
+  0% {
+    color: #0097C3;
+    text-shadow: 0 0 100px #4e4bff;
+  }
+  100% {
+    color: #06bdf5;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+@keyframes font3 {
+  0% {
+    color: #CC6699;
+    text-shadow: 0 0 100px #f152a2;
+  }
+  100% {
+    color: #ffa6d2;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+@keyframes font4 {
+  0% {
+    color: #56A061;
+    text-shadow: 0 0 100px #18f73a;
+  }
+  100% {
+    color: #56A061;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0px none;
+  }
+}
+@keyframes font5 {
+  0% {
+    color: #9D00D4;
+    text-shadow: 0 0 100px #c438f7;
+  }
+  100% {
+    color: #e192fd;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+@keyframes font6 {
+  0% {
+    color: #EF4E00;
+    text-shadow: 0 0 100px #fd9968;
+  }
+  100% {
+    color: #f5712f;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+@keyframes font7 {
+  0% {
+    color: #13A894;
+    text-shadow: 0 0 100px #8df8ea;
+  }
+  100% {
+    color: #8df8ea;
+  }
+  95% {
+    color: #111;
+    filter: blur(0px);
+    text-shadow: 0 0 0 none;
+  }
+}
+.news1 a {
+  display: block;
+  color: #fff;
+  padding-top: 200px;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+}
+.news1 a:hover {
+  color: palevioletred;
+  transition: 0.5s;
+}
+
+.menu_select {
+  width: 100%;
+  margin: 0, auto;
+}
+.menu_select ul li {
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.menu_select ul li a {
+  width: 100%;
+}
+.menu_select ul li a:hover p {
+  color: #fff;
+  display: flex;
+}
+.menu_select ul li img {
+  width: 100%;
+  transition: 0.5s;
+}
+.menu_select ul li p {
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: rgba(83, 83, 83, 0.61);
+  font-weight: 500;
+  font-family: "Anton", sans-serif;
+  line-height: 1;
+  font-size: 200px;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, 0%);
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.menu_select ul li p span {
+  font-size: 100px;
+  font-family: "Press Start 2P", cursive;
+  font-style: italic;
+  color: rgba(250, 250, 250, 0.8);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  display: block;
+  transition: 0.5s;
+}
+.menu_select ul li.active {
+  opacity: 1;
+  margin-top: 200px;
+}

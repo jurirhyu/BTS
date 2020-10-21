@@ -1,0 +1,178 @@
+.sign-up {
+  position: fixed;
+  bottom: 0;
+  z-index: 200;
+  background-color: black;
+  padding: 20px;
+  width: 18%;
+  -webkit-transform: translateY(86%);
+          transform: translateY(86%);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.sign-up.active {
+  -webkit-transform: translateY(0%);
+          transform: translateY(0%);
+}
+
+.sign-up .sign-up-for {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.sign-up .sign-up-for h3 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+}
+
+.sign-up .sign-up-for :after {
+  content: '';
+  background: url("../img/upArrow.gif") right center no-repeat;
+  background-size: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  top: 60%;
+  -webkit-transform: rotate(0deg) translateY(-50%);
+          transform: rotate(0deg) translateY(-50%);
+  -webkit-transform-origin: 50% 0;
+          transform-origin: 50% 0;
+}
+
+.sign-up .sign-up-for ::after {
+  background-size: 50%;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  right: 0%;
+  top: 60%;
+}
+
+.sign-up.active .sign-up-for h3:after {
+  -webkit-transform: rotate(180deg) translateY(-50%);
+          transform: rotate(180deg) translateY(-50%);
+}
+
+.sign-up .inputs p {
+  color: #fff;
+  font-size: 14px;
+  padding: 20px 0%;
+}
+
+.sign-up .inputs input {
+  border: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background: #222;
+  padding: 10px 15px;
+  font-size: 13px;
+  width: 100%;
+  margin: 2px 0;
+  color: #FFF;
+  border-radius: 0;
+}
+
+.sign-up .inputs :nth-of-type(6) {
+  width: 3%;
+}
+
+.sign-up .inputs label {
+  font-size: 12px;
+  color: #fff;
+}
+
+.sign-up .inputs .btn {
+  margin-top: 10px;
+  background: #FFF;
+  border: #fff;
+  color: #000;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+@media (max-width: 1024px) {
+  .sign-up {
+    position: fixed;
+    bottom: 0;
+    z-index: 200;
+    background-color: black;
+    padding: 20px;
+    width: 18%;
+    -webkit-transform: translateY(86%);
+            transform: translateY(86%);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    display: none;
+  }
+  .sign-up.active {
+    -webkit-transform: translateY(0%);
+            transform: translateY(0%);
+  }
+  .sign-up .sign-up-for {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .sign-up .sign-up-for h3 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+  }
+  .sign-up .sign-up-for :after {
+    content: '';
+    background: url("../img/upArrow.gif") right center no-repeat;
+    background-size: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 60%;
+    -webkit-transform: rotate(0deg) translateY(-50%);
+            transform: rotate(0deg) translateY(-50%);
+    -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+  }
+  .sign-up.active .sign-up-for h3:after {
+    -webkit-transform: rotate(180deg) translateY(-50%);
+            transform: rotate(180deg) translateY(-50%);
+  }
+  .sign-up .inputs p {
+    color: #fff;
+    font-size: 14px;
+    padding: 20px 0%;
+  }
+  .sign-up .inputs input {
+    border: 0;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+    background: #222;
+    padding: 10px 15px;
+    font-size: 13px;
+    width: 100%;
+    margin: 2px 0;
+    color: #FFF;
+    border-radius: 0;
+  }
+  .sign-up .inputs :nth-of-type(6) {
+    width: 3%;
+  }
+  .sign-up .inputs label {
+    font-size: 12px;
+    color: #fff;
+  }
+  .sign-up .inputs .btn {
+    margin-top: 10px;
+    background: #FFF;
+    border: #fff;
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+/*# sourceMappingURL=sign-up.css.map */

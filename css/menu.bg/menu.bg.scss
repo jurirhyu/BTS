@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@import url("common.css");
+@import url("js/common.js");
+
+header {
+    width: 100%;
+    background-color: #000;
+
+    .nevbar {
+        position: fixed;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 2%;
+        z-index: 1;
+
+        
+     
+    
+        .sns {
+            a {
+            }
+            img {
+                width: 35px;
+            }
+        }
+
+        .logo {
+            display: block;
+
+            margin: 0 auto;
+
+            a {
+                display: inline-block;
+
+                text-align: center;
+                font-size: 60px;
+                color: #fff;
+            }
+        }
+
+        .lang {
+            display: block;
+            padding-right: 2%;
+
+            ul {
+                display: flex;
+
+                li {
+                    a {
+                    }
+                }
+            }
+        }
+
+        .menu {
+            width: 30px;
+            position: relative;
+            
+
+            .trigger-menu {
+                width: 100%;
+                transition: 0.5s;
+                display: inline-block;
+                position: relative;
+                z-index: 100;
+                
+                span {
+                    display: block;
+                    width: 100%;
+                    transition: 0.5s;
+                    background-color: rgba(243, 243, 243, 0.555);
+                    height: 3px;
+                    margin: 4px;
+                }
+
+                span:nth-of-type(1) {
+                    transform: translateY(0px) rotate(0deg);
+                }
+                span:nth-of-type(2) {
+                    
+                }
+
+                span:nth-of-type(3) {
+                    transform: translateY(0px) rotate(0deg);
+                }
+
+
+
+                &.active span:nth-of-type(1) {
+                    transform: translateY(5px) rotate(45deg);
+                }
+                &.active span:nth-of-type(2) {
+                    display: none;
+                }
+
+                &.active span:nth-of-type(3) {
+                    transform: translateY(-3px) rotate(-45deg);
+                }
+
+            }
+
+
+            p {
+               
+                display: none;
+                text-align:right;
+                position:fixed;
+                right:0;
+                top:0;
+                z-index: 10;
+                
+               width: 30%;
+               height: 100%;
+               background-color: rgba(0,0,0,0.8);
+
+              
+               flex-direction:column;
+               justify-content: center;
+               align-items: center;
+
+               a{
+
+                padding:20px 0;
+                font-size: 3rem;
+                 display:block;
+             
+                white-space: normal;
+                color:#fff;
+               
+                text-align: center;
+            
+            }
+               
+                &.active{
+                    display:flex;
+                }
+            }
+
+        }
+    }
+
+    // video {
+    //     overflow: hidden;
+    // }
+}

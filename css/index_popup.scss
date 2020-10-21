@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+
+.popup {
+  padding: 10%;
+  width: 400px;
+  position: absolute;
+  img {
+    width: 100%;
+    position: absolute;
+  }
+  p {
+    padding: 20%;
+    font-family: "Open Sans", sans-serif;
+    
+    a {  
+      color: #fff;
+      opacity: 0.9;
+      font-size: 80px;
+      text-align: center;
+    }
+  }
+
+  div {
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20%;
+    vertical-align: middle;
+    width: 80%;
+    input {
+      vertical-align: middle;
+    }
+    a {
+      display: block;
+      position: absolute;
+      // border: 1px solid #fff;
+      background-color: #b9b9b9;
+      color: #fff;
+      padding: 0% 5%;
+      margin: 2%;
+      font-size: 18px;
+
+      // display: block;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+@media (max-width:1024px) {
+  
+.popup {
+  padding: 10%;
+  width: 400px;
+  position: absolute;
+  display: none;
+  img {
+    width: 100%;
+    position: absolute;
+    display: none;
+  }
+  p {
+    padding: 20%;
+    font-family: "Open Sans", sans-serif;
+    display: none;
+    
+    a {  
+      display: none;
+      color: #fff;
+      opacity: 0.9;
+      font-size: 80px;
+      text-align: center;
+    }
+  }
+
+  div {
+    display:none;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20%;
+    vertical-align: middle;
+    width: 80%;
+    input {
+      vertical-align: middle;
+    }
+    a {
+      display: none;
+      position: absolute;
+      // border: 1px solid #fff;
+      background-color: #b9b9b9;
+      color: #fff;
+      padding: 0% 5%;
+      margin: 2%;
+      font-size: 18px;
+
+      // display: block;
+      font-family: "Open Sans", sans-serif;
+    }
+  }
+}
+}

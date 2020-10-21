@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
+.popup {
+  padding: 10%;
+  width: 400px;
+  position: absolute;
+}
+
+.popup img {
+  width: 100%;
+  position: absolute;
+}
+
+.popup p {
+  padding: 20%;
+  font-family: "Open Sans", sans-serif;
+}
+
+.popup p a {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 80px;
+  text-align: center;
+}
+
+.popup div {
+  position: absolute;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding-left: 20%;
+  vertical-align: middle;
+  width: 80%;
+}
+
+.popup div input {
+  vertical-align: middle;
+}
+
+.popup div a {
+  display: block;
+  position: absolute;
+  background-color: #b9b9b9;
+  color: #fff;
+  padding: 0% 5%;
+  margin: 2%;
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+}
+
+@media (max-width: 1024px) {
+  .popup {
+    padding: 10%;
+    width: 400px;
+    position: absolute;
+    display: none;
+  }
+  .popup img {
+    width: 100%;
+    position: absolute;
+    display: none;
+  }
+  .popup p {
+    padding: 20%;
+    font-family: "Open Sans", sans-serif;
+    display: none;
+  }
+  .popup p a {
+    display: none;
+    color: #fff;
+    opacity: 0.9;
+    font-size: 80px;
+    text-align: center;
+  }
+  .popup div {
+    display: none;
+    position: absolute;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    padding-left: 20%;
+    vertical-align: middle;
+    width: 80%;
+  }
+  .popup div input {
+    vertical-align: middle;
+  }
+  .popup div a {
+    display: none;
+    position: absolute;
+    background-color: #b9b9b9;
+    color: #fff;
+    padding: 0% 5%;
+    margin: 2%;
+    font-size: 18px;
+    font-family: "Open Sans", sans-serif;
+  }
+}
+/*# sourceMappingURL=index_popup.css.map */
